@@ -19,6 +19,7 @@ https://git-lfs.com/
 
 ## In case your .git is already bloated
 Just follow the instructions from the BFG Repo-Cleaner
+https://rtyley.github.io/bfg-repo-cleaner/
 1. git clone --mirror git://example.com/some-big-repo.git
 2. java -jar bfg.jar --strip-blobs-bigger-than 100M some-big-repo.git (Yes you need Java)
 3. Clean up: <br>
